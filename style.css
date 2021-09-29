@@ -1,0 +1,222 @@
+@import url('https://fonts.googleapis.com/css2?family=Old+Standard+TT&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Old+Standard+TT&family=Rubik:wght@300&display=swap');
+
+
+* {
+  padding: 0;
+  margin: 1;
+  box-sizing: border-box;
+}
+
+body{
+  background-image: url("https://scontent.fbfh14-2.fna.fbcdn.net/v/t1.6435-9/242605393_4312522205462621_2055711400672259161_n.jpg?_nc_cat=104&ccb=1-5&_nc_sid=730e14&_nc_eui2=AeEGIw7UvdnuUFE-X7xtL3rbpC5jF_Gz-ZCkLmMX8bP5kPFDJ3487XDvrGlTyngRGcndGcMeGBnTlJQ1UkYG2yUG&_nc_ohc=MT7OB4pO2NUAX-26dvs&_nc_ht=scontent.fbfh14-2.fna&oh=b7d3fed5e015c3aeadb2d09e4419fefe&oe=6174811F");
+  background-size: cover;
+  font-family: 'Poppins', sans-serif;
+}
+
+/* header do perfil */
+
+.container{
+  width: 60vw;
+  background: rgba(255, 255, 255, 0);
+  color: #E8E8DB;
+  margin: 64px;
+  border-radius:20px;
+  padding: 64px;
+  
+}
+
+.cabecalho {
+  width: 60vw;
+  display: flex;
+  justify-content: space-between;
+}
+
+.perfil{
+  display:flex;
+}
+
+.perfil-foto{
+  margin-bottom: 10px;
+  border-radius: 20%;
+  max-height: 160px;
+  box-shadow:0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.titulo{
+  margin-left:16px;
+}
+
+.titulo h1{
+  font-weight: 700;
+  font-size: 36px;
+}
+
+.titulo h3{
+ font-weight: 400;
+ font-size: 24px;
+}
+
+/* ícones do perfil */
+
+.icone-perfil{
+  margin: 3px;
+  text-decoration: none;
+  font-size: 1.3rem;
+  color: #FFFFFF;
+  transition: color 0.2s;
+}
+
+
+.icone-perfil:hover {
+  color: #FFDF65;
+}
+
+/* Button */
+
+.tema button {
+  align-self: flex-end;
+  font-size: 14px;
+  font-weight: 300;
+  padding: 2px 10px;
+  background: #ecf4ff;
+  border-radius: 8px;
+  border: none;
+  
+  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
+  transition: 0.2s;
+}
+
+.tema button:hover {
+  background: #FFDF65;
+  box-shadow: 0 3px 11px 0 rgba(0, 0, 0, 0.18), 0 4px 13px 0 rgba(0, 0, 0, 0.15);
+}
+
+/* container de projetos */
+
+.projetos{
+  width: 60vw;
+  font-family: 'Poppins', sans-serif;
+  display:flex;
+  flex-direction: column;
+  background-color: #E0E1DD;
+  border-radius:10px;
+  margin-top:10px;
+  box-shadow:0 4px 4px rgba(0, 0, 0, 0.25);;
+}
+
+.projetos-container{
+  margin-bottom:15px; 
+}
+
+.projetos ul{
+  margin-left: 0.5rem;
+  margin-top:0.5rem;  
+}
+
+
+.projetos h3{
+  margin-top: 10px;
+  margin-left: 1rem;
+}
+.projetos a {
+  text-decoration: none;
+  color:black;
+}
+
+.projetos a:hover{
+  color: gray;
+}
+
+.projetos li{
+  margin-left:0.5rem;
+  margin-bottom: 4px;
+  list-style: none;
+}
+
+
+.dark {
+  background-image: url("https://scontent.fbfh14-2.fna.fbcdn.net/v/t1.6435-9/242801915_4331509346897240_4008137288549186279_n.jpg?_nc_cat=109&ccb=1-5&_nc_sid=730e14&_nc_eui2=AeGwRJu-abfgk50SIku04gGfk0U8vQvsfFSTRTy9C-x8VHl7tsroGCFsOJ-r8PQqossbPVpPRYwoeKbGI0fNewK3&_nc_ohc=uZpilylFbEwAX9jzM8u&_nc_ht=scontent.fbfh14-2.fna&oh=e8e8e586a7d0cc274c12ee6e0615545d&oe=61792AA9");
+}
+
+.dark .container {
+  color: black;
+}
+
+.dark .icone-perfil{
+  margin: 3px;
+  text-decoration: none;
+  font-size: 1.3rem;
+  color: black;
+  transition: color 0.2s;
+}
+
+.dark .icone-perfil:hover{
+  color: #FFDF65;
+}
+
+.dark .tema button {
+  background-color: gray;
+  box-shadow: 0 2px 5px 0 rgba(255, 255, 255, 0.16),
+    0 2px 10px 0 rgba(255, 255, 255, 0.12);
+}
+
+.dark .tema button:hover {
+  background-color: #FFDF65;
+  box-shadow: 0 3px 11px 0 rgba(255, 255, 255, 0.18),
+    0 4px 13px 0 rgba(255, 255, 255, 0.15);
+}
+
+.dark .projetos {
+  background: rgba(0, 0, 0, 1); 
+}
+
+.dark .projetos a {
+  color: #ffffff;
+}
+
+.dark .projetos a:hover {
+  color: #FFDF65;
+}
+
+input[type="checkbox"] {
+  height: 0;
+  width: 0;
+  visibility: hidden;
+}
+
+label {
+  cursor: pointer;
+  text-indent: -9999px;
+  width: 50px;
+  height: 30px;
+  background: #333439;
+  display: block;
+  border-radius: 100px;
+  position: relative;
+}
+
+label:after {
+  content: "";
+  position: absolute;
+  top: 5px;
+  left: 5px;
+  width: 20px;
+  height: 20px;
+  background: #fff;
+  border-radius: 90px;
+  transition: 0.2s;
+}
+
+input:checked + label {
+  background: #FFDF65;
+}
+
+input:checked + label:after {
+  left: calc(100% - 5px);
+  transform: translateX(-100%);
+}
+
+label:active:after {
+  width: 40px;
+}
