@@ -9,7 +9,7 @@
 }
 
 body{
-  background-color: #00a091;
+  background-color: #024059;
   background-size: cover;
   font-family: 'Poppins', sans-serif;
 }
@@ -23,7 +23,6 @@ body{
   margin: 64px;
   border-radius:20px;
   padding: 64px;
-  
 }
 
 .cabecalho {
@@ -69,7 +68,7 @@ body{
 
 
 .icone-perfil:hover {
-  color: #FFDF65;
+  color: #f28705;
 }
 
 /* Button */
@@ -82,13 +81,12 @@ body{
   background: #ecf4ff;
   border-radius: 8px;
   border: none;
-  
   box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
   transition: 0.2s;
 }
 
 .tema button:hover {
-  background: #FFDF65;
+  background: #f28705;
   box-shadow: 0 3px 11px 0 rgba(0, 0, 0, 0.18), 0 4px 13px 0 rgba(0, 0, 0, 0.15);
 }
 
@@ -106,7 +104,7 @@ body{
 }
 
 .projetos-container{
-  margin-bottom:15px; 
+  margin: 20px; 
 }
 
 .projetos ul{
@@ -153,7 +151,7 @@ body{
 }
 
 .dark .icone-perfil:hover{
-  color: #FFDF65;
+  color: #f28705;
 }
 
 .dark .tema button {
@@ -163,7 +161,7 @@ body{
 }
 
 .dark .tema button:hover {
-  background-color: #FFDF65;
+  background-color: #f28705;
   box-shadow: 0 3px 11px 0 rgba(255, 255, 255, 0.18),
     0 4px 13px 0 rgba(255, 255, 255, 0.15);
 }
@@ -181,7 +179,7 @@ body{
 }
 
 .dark .projetos a:hover {
-  color: #FFDF65;
+  color: #f28705;
 }
 
 /* Label */
@@ -217,7 +215,7 @@ label:after {
 }
 
 input:checked + label {
-  background: #FFDF65;
+  background: #f28705;
 }
 
 input:checked + label:after {
